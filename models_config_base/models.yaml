@@ -1,0 +1,10 @@
+models:
+- MobileNetV2
+- SqueezeNet
+- ResNet18
+- GoogleNet
+- ResNet50
+- ResNet101
+- ViT_base_patch16_224
+- Xception
+- InceptionV3

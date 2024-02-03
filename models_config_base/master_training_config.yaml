@@ -1,0 +1,68 @@
+General_config:
+  batch_size: 32
+  load_model_path: pretrained_models/
+  lr: 0.001
+  mean:
+  - 0.5
+  - 0.5
+  - 0.5
+  momentum: 0.9
+  num_classes: 7
+  num_epochs: 100
+  patience: 5
+  project: 7-classes
+  save_model_path: trained_models/
+  std:
+  - 0.5
+  - 0.5
+  - 0.5
+  team: amrc-avi
+  train_data_path: data/7classes/train
+  validation_split: 0.1
+  weight_decay: 0.0001
+GoogleNet:
+  resize:
+  - 224
+  - 224
+InceptionV3:
+  resize:
+  - 299
+  - 299
+MobileNetV2:
+  resize:
+  - 224
+  - 224
+ResNet101:
+  resize:
+  - 224
+  - 224
+ResNet18:
+  resize:
+  - 224
+  - 224
+ResNet50:
+  resize:
+  - 256
+  - 256
+SqueezeNet:
+  resize:
+  - 224
+  - 224
+ViT_base_patch16_224:
+  resize:
+  - 224
+  - 224
+Xception:
+  resize:
+  - 299
+  - 299
+models:
+- MobileNetV2
+- SqueezeNet
+- ResNet18
+- GoogleNet
+- ResNet50
+- ResNet101
+- ViT_base_patch16_224
+- Xception
+- InceptionV3
