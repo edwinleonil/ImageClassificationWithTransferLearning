@@ -1,5 +1,5 @@
 # Transfer-Learning
-A repository to fine tune pretrained image clasification models with Pytorch
+A repository to fine tune pretrained image clasification models such as Inception, Xception, Resnet-18, 50, 102, GoogleNet, etc. with Pytorch
 
 ## Python dependencies
  - pytorch
